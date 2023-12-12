@@ -12,7 +12,7 @@
     
     <div class="wrapper">
 
-        <center><h1 style="background-color: rgb(181, 213, 242); padding: 3px;"> <img src="assets/logo2.png" alt="" height="130px"></h1></center>
+        <center><h1 style="background-color: rgb(181, 213, 242); padding: 3px; margin-top: -10px;"> <img src="assets/logo2.png" alt="" height="130px"></h1></center>
 
         <div class="tab-container">
             <!-- <p class="tab" data-userWeather style="font-size: x-large;">Your Weather</p> -->
@@ -62,27 +62,32 @@
 
                 <!--3 cards - parameters-->
                 <div class="parameter-container">
-
-                    <!--card 1-->
+                 <table><tr>
+                    <td><!--card 1-->
                     <div class="parameter">
                         <img src="./assets/wind.png" >
                         <p>windspeed</p>
                         <p data-windspeed></p>
                     </div>
+                </td>
 
-                    <!--card 2-->
+                    <td><!--card 2-->
                     <div class="parameter">
                         <img src="./assets/humidity.png" >
                         <p>humidity</p>
                         <p data-humidity></p>
                     </div>
+                </td>
 
-                    <!--card 3-->
+                    <td><!--card 3-->
                     <div class="parameter">
                         <img src="./assets/cloud.png" >
                         <p>Clouds</p>
                         <p data-cloudiness></p>
                     </div>
+                </td>
+                </tr>
+                </table>
 
                 </div>
 
