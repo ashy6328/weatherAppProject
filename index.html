@@ -15,7 +15,7 @@
         <center><h1 style="background-color: rgb(181, 213, 242); padding: 3px; margin-top: -10px;"> <img src="assets/logo2.png" alt="" height="130px"></h1></center>
 
         <div class="tab-container">
-            <!-- <p class="tab" data-userWeather style="font-size: x-large;">Your Weather</p> -->
+            <p class="tab" data-userWeather style="font-size: x-large;">Your Weather</p>
             <p class="tab" data-searchWeather style="font-size: x-large ; text-decoration: underline; color: blue; font-weight: bolder; text-decoration: none;" >Search Weather</p>
         </div>
 
@@ -36,7 +36,7 @@
                     <img src="./assets/search.png"  width="20" height="20" loading="lazy">
                 </button>
             </form>
-
+           
             <!--- loading screen container -->
             <div class="loading-container">
                 <img src="./assets/loading.gif" width="150" height="150">
@@ -45,7 +45,7 @@
 
             <!-- show weather info -->
             <div class="user-info-container">
-
+                <table><tr><td>
                 <!--city name and Flag-->
                 <div class="name">
                     <p data-cityName></p>
@@ -53,16 +53,17 @@
                 </div>
 
 
-                <!-- weather descriptuion-->
+               <td> <!-- weather descriptuion-->
                 <p data-weatherDesc></p>
-                <!--weather Icon-->
-                <img data-weatherIcon>
-                <!--temperature-->
-                <p data-temp></p>
+                </td>
+                <td><!--weather Icon-->
+                <img data-weatherIcon></td>
+                <td><!--temperature-->
+                <p data-temp></p></td>
 
-                <!--3 cards - parameters-->
-                <div class="parameter-container">
-                 <table><tr>
+               <td> <!--3 cards - parameters-->
+                <div class="parameter-container"></td>
+               
                     <td><!--card 1-->
                     <div class="parameter">
                         <img src="./assets/wind.png" >
