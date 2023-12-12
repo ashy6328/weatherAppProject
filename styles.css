@@ -2,7 +2,7 @@
 
 .tab.current-tab {
     background-color:rgba(63, 100, 168, 0.5);
-    border-radius: 6px;
+    border-radius: 8px;
 }
 
 .form-container.active {
